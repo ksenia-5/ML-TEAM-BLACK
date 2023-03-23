@@ -1,0 +1,46 @@
+#https://www.youtube.com/watch?v=j-3vuBynnOE
+
+#do a lot of array operations
+import numpy as np
+
+#iterates through directories and joins paths
+import os
+#image operations
+import cv2
+#shows the image
+import matplotlib.pyplot as plt
+
+#files location
+mypath = r'D:/Natty Potty/CODING/test'
+mycategories = ['phone', 'laptop']
+#dstpath = r'D:\Natty Potty\CODING\test\dstphone'
+
+#iterate through all the examples
+for category in mycategories:
+# gets into path to object images dir
+    path = os.path.join(mypath, category)
+#for every image in that path it iterates through all the images
+    for img in os.listdir(path):
+#converting images to the array, read them and turing into gray scale
+        img_array = cv2.imread(os.path.join(path, img), 0)
+
+#checking by graphing
+        plt.imshow(img_array, cmap='gray')
+#       plt.savefig(r'D:/Natty Potty/CODING/test')
+        plt.show()
+
+        break
+    break
+#how our data looks like
+print(img_array.shape)
+
+#normalising images into the same shape
+#nr of pixels
+IMG_SIZE = 244
+new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))
+plt.imshow(new_array, cmap = 'gray')
+plt.show()
+
+
+
+
