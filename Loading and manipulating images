@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 #files location
 mypath = r'D:/Natty Potty/CODING/test'
-mycategories = ['phone', 'laptop']
+mycategories = ["phone", "laptop", "satellite dish device", "usb stick ", "keyboard", "router", "keys objects", "magnifying glass", "server rack", "computer mouse"]
 #dstpath = r'D:\Natty Potty\CODING\test\dstphone'
 
 #iterate through all the examples
