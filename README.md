@@ -22,3 +22,6 @@ The objects to identify are:
 - Mouse
 
 Image data on 10 object classes collected by [Natalia](https://github.com/natalijamahoby). The dataset can be [found on Kaggle](https://www.kaggle.com/datasets/ksenia5/object-detection), along with model-ready featureset X and labels y, and prepared for transfer learning. The script used to pre-process the data is [here](https://www.kaggle.com/ksenia5/preprocessing-image-data-for-classification).
+<br>
+
+Main model [file here](https://www.kaggle.com/code/ksenia5/transfer-learning-with-inception).
