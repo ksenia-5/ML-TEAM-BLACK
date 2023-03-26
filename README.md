@@ -35,4 +35,4 @@ Regularization with drop out of 20% was used to improve the prediction results b
 
 <br>
 
-[Object detection with transfer learning using pretrained InceptionV3 convolutional neural network here](https://www.kaggle.com/code/ksenia5/transfer-learning-with-inception) and a [better version here](https://www.kaggle.com/ksenia5/transfer-learning-with-inceptionv3).
+Object detection with transfer learning using pretrained InceptionV3 convolutional neural network [first attempt here](https://www.kaggle.com/code/ksenia5/transfer-learning-with-inception) and a [better performing model here](https://www.kaggle.com/ksenia5/transfer-learning-with-inceptionv3).
